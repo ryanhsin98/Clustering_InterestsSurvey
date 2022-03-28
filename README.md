@@ -8,12 +8,12 @@ Implemented dimensionality reduction for 217 features for community clustering a
   - For example, exclude people with too many or too few interests.
 - Dimensionality reduction：
   1. Low variance filter, Subset selection
-    - for clustering, more concentrated the distribution of the data corresponding to the feature, the better the contribution to the classifier.
-    - Because the type of feature data set is 1 or 0, like Boolean data, and Boolean features are Bernoulli distribution (The variance is p*(1-p)).
-    - Filtering on the variance will remove features that have a value of 0 or 1 in more than 80% of the samples.
+      - for clustering, more concentrated the distribution of the data corresponding to the feature, the better the contribution to the classifier.
+      - Because the type of feature data set is 1 or 0, like Boolean data, and Boolean features are Bernoulli distribution (The variance is p*(1-p)).
+      - Filtering on the variance will remove features that have a value of 0 or 1 in more than 80% of the samples.
   2. Principal Component Analysis
-    - Because the dataset is not labeled data, PCA is more suitable than LDA as a dimensionality reduction method.
-    - find a projection axis can be obtained after projection to obtain the maximum variation of this group of data.
+      - Because the dataset is not labeled data, PCA is more suitable than LDA as a dimensionality reduction method.
+      - find a projection axis can be obtained after projection to obtain the maximum variation of this group of data.
 - Clustering：
   - The K-means clustering algorithm (K-means) was selected as this method.
   - Reason：
