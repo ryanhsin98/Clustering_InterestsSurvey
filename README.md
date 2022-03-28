@@ -2,6 +2,8 @@
 Implemented dimensionality reduction for 217 features for community clustering analysis.
 
 ## Summary
+**Assignment of Machine learning courses**
+
 - DataSet: 217 interests, 6340 persons.
 - Data pre-processing：
   - Solve the problem of missing values ​​and outliers to avoid errors in cluster analysis.
